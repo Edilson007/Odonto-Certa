@@ -329,12 +329,17 @@ margin:  10px 10px 20px 10px;
     }
     
     .video-tam{
-       width: 440px;
-        height: 248px;
+       width: 350px;
+        height: 208px;
             }
     .footer-id{
         
        margin: 0px 50px;
             
     }
+    
+ .servicos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 20px; 
 }
