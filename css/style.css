@@ -329,8 +329,9 @@ margin:  10px 10px 20px 10px;
     }
     
     .video-tam{
-       width: 200px;
-        margin: 20px;
+       width: 340px;
+        height: 192px;
+      
      
         
             }
@@ -345,3 +346,14 @@ margin:  10px 10px 20px 10px;
   grid-template-columns: repeat(2, 1fr);
   margin: 0 20px; 
 }
+.menu-nav a{
+    font-size: 0.8em;
+    }
+    
+    .menu-logo a{
+        font-size: 1.5em;
+    }
+    
+    .superinfo a, p{
+        font-size: 0.8em;
+    }
