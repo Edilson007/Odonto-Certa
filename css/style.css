@@ -1,0 +1,340 @@
+
+body, h1, h2, p, ul, li, a{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+
+    font-family: 'Open Sans', sans-serif;
+    }
+
+ul{
+    list-style: none;
+     
+}
+
+a{
+    text-decoration: none;
+    color: #A7C681;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+/*Super Info*/
+.superinfo-bg{
+        background: #000;
+        color: #A7C681;
+}
+
+.superinfo{
+        max-width: 1050px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 10px;
+}
+
+ .superinfo p{
+        margin: 10px 10px 20px 10px;
+
+}
+
+.num-tel{
+margin:  10px 10px 20px 10px;
+
+}
+
+.img-bg{
+    position:absolute;
+    margin-left: -30px;
+    margin-top: 7px;
+  
+ }
+
+.menu-bg{
+    background: #669801;
+}
+
+
+.menu{
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+    }
+
+.menu a{
+    color: white;
+    text-transform: uppercase;
+}
+
+.menu-logo a{
+    font-size: 2.0em;
+    font-weight: bold;
+    margin: 0 10px;
+    
+}
+
+.menu-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.menu-nav a{
+    font-size: 0.95em;
+    display: block;
+    padding: 10px;
+   
+ 
+}
+
+.menu-nav a:hover{
+    border-radius: 10px;
+    background: #000;
+    border: 2px solid #fff;
+    font-weight: bold;
+    
+}
+
+.carroseul figure{
+    
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+     
+}
+
+.item-p1{
+    position: absolute;
+    margin-top: -180px;
+    margin-left:50px; 
+    color: #A7C681;
+    font-weight: bold;
+    font-size: 30px;
+ 
+
+}
+
+.item-p2{
+    position: absolute;
+    margin-top: -180px;
+    margin-left:1050px; 
+    color: #A7C681;
+    font-weight: bold;
+    font-size: 30px;
+ 
+
+}
+
+.item-p3{
+    position: absolute;
+    margin-top: -180px;
+    margin-left:1050px; 
+    color: #A7C681;
+    font-weight: bold;
+    font-size: 30px;
+ 
+
+}
+
+
+.item-p4{
+    position: absolute;
+    margin-top: -180px;
+    margin-left:50px; 
+    color: #A7C681;
+    font-weight: bold;
+    font-size: 30px;
+ 
+
+}
+
+.cursoAsb {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  grid-gap: 20px;
+  max-width: 1050px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.sidebar > div {
+  margin-bottom: 10px;
+}
+
+.texto-video p{
+    margin: 10px;
+    text-align: justify;
+ 
+}
+
+.video{
+
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.subtitulo{
+    font-size: 1.3em;
+    margin-top: 40px;
+  	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.subtitulo:after{
+	content: "";
+	display: block;
+	width: 80px;
+	height: 4px;
+	background:#669801;
+	margin: 8px auto;
+
+}
+
+.bg-servico{
+    width: 100%;
+    background:rgb(0,0,0,0.75);
+  
+}
+
+.servicos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1050px;
+  padding: 10px;
+  margin: 0 auto;
+  grid-gap: 20px;
+   
+}
+
+.servicos p{
+    text-align: center;
+    color: white;
+    background:#669801; 
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 auto
+
+}
+
+.bg-footer{
+    width: 100%;
+    background: #669801;
+    max-height: 100%;
+    
+   
+}
+
+.footer-id{
+
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+.footer-id h3 {
+	font-size: 18px;
+	line-height: 25px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: bold;
+	text-align: left;
+}
+
+.footer-id h3:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fff;
+	margin: 6px 5px 12px 0;
+}
+
+.historia{
+    width: 380px;
+    padding-right: 40px;
+	text-align: justify;
+    margin-bottom: 20px;
+}
+
+.historia p, ul{
+    color: #000;
+}
+.contato1{
+    width: 220px;;
+    margin-right: 20px;
+}
+
+.contato2{
+   width: 300px;
+    margin-bottom: 20px;
+}
+
+.contato2 ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.contato2 ul li a {
+	border: 3px solid #000;
+	display: block;
+	padding: 10px;
+}
+
+.contato2 ul li a:hover {
+	border-color: #fff;
+}
+
+
+.rodape-bg{
+    
+    background: #000;
+   
+    
+}
+
+.rodape p{
+    color:#A7C681;
+    text-align: center;
+    padding: 10px;
+  
+}
+
+@media (max-width: 600px) {
+  .cursoAsb  {
+    grid-template-columns: 1fr;
+            }
+    .item-p1, .item-p2, .item-p3, .item-p4{
+        font-size: 10px;
+        margin-top:-50px;
+        margin-left: 10px;
+    }
+    
+    .video-tam{
+       width: 440px;
+        height: 248px;
+            }
+    .footer-id{
+        
+       margin: 0px 50px;
+            
+    }
+}
