@@ -10,10 +10,12 @@
 	list-style:none;	
 	position:relative;
 	margin-left:50px;
+    z-index: 2;
 	}
 .menudo ul li{
 		width:150px;
 		float:left;
+        
 	}
 
 .menudo a{
@@ -45,7 +47,14 @@
 	border-bottom: solid 1px #ccc;
 	}
 .menudo ul ul li a{
+	background-color:#000;
+    border-radius: 8px;
+	}
+.menudo ul ul li a:hover{
 	background-color:#fff;
+     border-radius: 8px;
+     border: 2px solid #000;
+     color: #000;
 	}
 #bt_menudo{
 	display: none;
@@ -416,14 +425,17 @@ background: #669801;
 .menudo{
 	margin-left:-100%;
 	transition:all .4s;
-    
+   background:#fff;
+     
 	}
 label[for='bt_menudo']{
 	display:block;
     
+    
 	}
 .menudo>ul{
 	margin-left:0;
+     z-index: 2;
 	}
 .menudo{
 	margin-top:5px;
@@ -502,10 +514,7 @@ label[for='bt_menudo']{
         margin-bottom: 0;
     }
     
-    .carroseul img{
-        z-index: -1 !important;
-    }
-    
+   
     
   /*@media (max-width: 600px) {
   .cursoAsb  {
