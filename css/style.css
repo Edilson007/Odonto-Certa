@@ -449,10 +449,11 @@ label[for='bt_menudo']{
 	overflow:hidden;
 	max-height:0;
 	transition:all .4s;
+   
 	}
 .menudo ul li:hover ul{
 	height:auto;
-	max-height:200px;
+	max-height:100%;
 	transition:all .4s;
 	}
 #bt_menudo:checked ~ .menudo{
