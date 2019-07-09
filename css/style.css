@@ -102,6 +102,13 @@ img{
     max-width: 100%;
 }
 
+.whatsapp {
+    position: fixed;
+    top: 88%;
+    left: 1%;
+    padding: 10px;
+    z-index: 10000000;
+}
 /*Super Info*/
 .superinfo-bg{
         background: #000;
@@ -426,11 +433,14 @@ background: #669801;
 	margin-left:-100%;
 	transition:all .4s;
    background:#fff;
+  
      
 	}
 label[for='bt_menudo']{
 	display:block;
+    margin-left:290px;
     
+   
     
 	}
 .menudo>ul{
@@ -455,9 +465,11 @@ label[for='bt_menudo']{
 	height:auto;
 	max-height:100%;
 	transition:all .4s;
+  
 	}
 #bt_menudo:checked ~ .menudo{
 	margin-left:0;
+    
     
 	}
 
@@ -515,7 +527,138 @@ label[for='bt_menudo']{
         margin-bottom: 0;
     }
     
-   
+     .whatsapp-button-generator a{
+       
+        color: #000;
+        font-weight: bold;
+        text-shadow:#fff -2px -2px;
+        
+    }
+    
+  .whatsapp-button-generator {
+    position: fixed;
+    border-radius: 8%;
+    bottom: 70px;
+    right: 20px;
+    width: 75px;
+    height: 85px;
+    text-align: center;
+    z-index: 110
+  }
+
+  .whatsapp-button-content {
+    padding-top: 7px;
+    padding-left: 5px;
+    height:70px;
+
+  }
+
+  .whatsapp-button-web {
+    display: none;
+    
+  }
+
+  .whatsapp-button-mobile {
+    display: inherit;
+        
+  }
+
+  @media (min-width: 48em) {
+    .whatsapp-button-web {
+      display: inherit;
+     
+          
+    }
+
+    .whatsapp-button-mobile {
+      display: none
+       
+    }
+  }
+
+  .bounce-whatsapp-button {
+    animation: bounce-whatsapp-button 2s infinite;
+    -webkit-animation: bounce-whatsapp-button 2s infinite;
+    -moz-animation: bounce-whatsapp-button 2s infinite;
+    -o-animation: bounce-whatsapp-button 2s infinite
+  }
+
+  @-webkit-keyframes bounce-whatsapp-button {
+
+    0%,
+    100%,
+    20%,
+    50%,
+    80% {
+      -webkit-transform: translateY(0)
+    }
+
+    40% {
+      -webkit-transform: translateY(-30px)
+    }
+
+    60% {
+      -webkit-transform: translateY(-15px)
+    }
+  }
+
+  @-moz-keyframes bounce-whatsapp-button {
+
+    0%,
+    100%,
+    20%,
+    50%,
+    80% {
+      -moz-transform: translateY(0)
+    }
+
+    40% {
+      -moz-transform: translateY(-30px)
+    }
+
+    60% {
+      -moz-transform: translateY(-15px)
+    }
+  }
+
+  @-o-keyframes bounce-whatsapp-button {
+
+    0%,
+    100%,
+    20%,
+    50%,
+    80% {
+      -o-transform: translateY(0)
+    }
+
+    40% {
+      -o-transform: translateY(-30px)
+    }
+
+    60% {
+      -o-transform: translateY(-15px)
+    }
+  }
+
+  @keyframes bounce-whatsapp-button {
+
+    0%,
+    100%,
+    20%,
+    50%,
+    80% {
+      transform: translateY(0)
+    }
+
+    40% {
+      transform: translateY(-30px)
+    }
+
+    60% {
+      transform: translateY(-15px)
+    }
+  }
+</style>
     
   /*@media (max-width: 600px) {
   .cursoAsb  {
