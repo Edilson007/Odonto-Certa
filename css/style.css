@@ -439,9 +439,7 @@ background: #669801;
 label[for='bt_menudo']{
 	display:block;
     margin-left:290px;
-    
-   
-    
+         
 	}
 .menudo>ul{
 	margin-left:0;
@@ -470,7 +468,6 @@ label[for='bt_menudo']{
 #bt_menudo:checked ~ .menudo{
 	margin-left:0;
     
-    
 	}
 
 .cursoAsb  {
@@ -485,9 +482,8 @@ label[for='bt_menudo']{
     .video-tam{
        width: 340px;
         height: 192px;
-      
      
-        
+          
             }
     .footer-id{
         
@@ -526,7 +522,7 @@ label[for='bt_menudo']{
         z-index: 2 !important;
         margin-bottom: 0;
     }
-    
+}
      .whatsapp-button-generator a{
        
         color: #000;
@@ -561,19 +557,6 @@ label[for='bt_menudo']{
   .whatsapp-button-mobile {
     display: inherit;
         
-  }
-
-  @media (min-width: 48em) {
-    .whatsapp-button-web {
-      display: inherit;
-     
-          
-    }
-
-    .whatsapp-button-mobile {
-      display: none
-       
-    }
   }
 
   .bounce-whatsapp-button {
@@ -658,7 +641,7 @@ label[for='bt_menudo']{
       transform: translateY(-15px)
     }
   }
-</style>
+
     
   /*@media (max-width: 600px) {
   .cursoAsb  {
