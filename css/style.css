@@ -1,7 +1,8 @@
+
 .menudo{
 	width:100%;
 	height:70px;
-	background:  #669801;
+	background: rgb(87,133,55);
     margin-right: 10px;
     
 	}
@@ -15,25 +16,29 @@
 .menudo ul li{
 		width:150px;
 		float:left;
-        
+         
 	}
+
 
 .menudo a{
 	padding:15px;
 	display:block;
 	text-decoration: none;
-	background-color:  #669801;
+	background-color:  rgb(87,133,55);
 	text-align:center;
     color: #fff;
+    
 	}
 .menudo ul ul{
 	list-style:none;
 	position:absolute;
 	visibility:hidden;
+    
 	
 	}
 .menudo ul li:hover ul{
 	visibility:visible;
+     
 	}
 	
 .menudo a:hover{
@@ -45,23 +50,29 @@
 .menudo ul ul li{
 	float:none;
 	border-bottom: solid 1px #ccc;
+   
 	}
 .menudo ul ul li a{
 	background-color:#000;
     border-radius: 8px;
+    
+    
+    
 	}
 .menudo ul ul li a:hover{
 	background-color:#fff;
      border-radius: 8px;
      border: 2px solid #000;
      color: #000;
+     
 	}
+
 #bt_menudo{
 	display: none;
 	}
 label[for='bt_menudo']{
 	padding:5px;
-	background-color: #669801;
+	background-color: rgb(87,133,55);
 	color:#fff;
 	font-family:'Arial';
 	text-align:center;
@@ -171,10 +182,16 @@ margin:  10px 10px 20px 10px;
     color: #fff;
 }
 .menu-logo{
-background: #669801;
-    
+background: rgb(87,133,55);
+height: 180px;
     
     }
+
+.menu-logo img{
+    width: 400px;
+    margin-left: 100px;
+    
+}
 
 .menu-nav ul{
     display: flex;
@@ -223,49 +240,31 @@ background: #669801;
     
 }
 
-.item-p1{
+.transp-slide{
+    width: 100%;
+    height: 80px;
+    background: rgb(87,133,55);
+    opacity : 0.7 ;
     position: absolute;
-    margin-top: -180px;
-    margin-left:50px; 
-    color: #A7C681;
+    margin-top: -80px;
+    
+    
+}
+.text-slide{
+    color:#fff; 
     font-weight: bold;
-    font-size: 30px;
- 
-
+    font-size: 20px;
+    padding-top: 10px;
+    text-shadow: 2px 2px 1px #000;
 }
 
-.item-p2{
-    position: absolute;
-    margin-top: -180px;
-    margin-left:1050px; 
-    color: #A7C681;
+.text-slide2{
+    color:#fff; 
     font-weight: bold;
-    font-size: 30px;
- 
-
-}
-
-.item-p3{
-    position: absolute;
-    margin-top: -180px;
-    margin-left:1050px; 
-    color: #A7C681;
-    font-weight: bold;
-    font-size: 30px;
- 
-
-}
-
-
-.item-p4{
-    position: absolute;
-    margin-top: -180px;
-    margin-left:50px; 
-    color: #A7C681;
-    font-weight: bold;
-    font-size: 30px;
- 
-
+    font-size: 16px;
+    padding-top: 5px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 1px #000;
 }
 
 .cursoAsb {
@@ -310,7 +309,7 @@ background: #669801;
 	display: block;
 	width: 80px;
 	height: 4px;
-	background:#669801;
+	background:rgb(87,133,55);
 	margin: 8px auto;
 
 }
@@ -334,7 +333,7 @@ background: #669801;
 .servicos p{
     text-align: center;
     color: white;
-    background:#669801; 
+    background:rgb(87,133,55);
     font-weight: bold;
     text-transform: uppercase;
     margin: 0 auto
@@ -343,7 +342,7 @@ background: #669801;
 
 .bg-footer{
     width: 100%;
-    background: #669801;
+    background: rgb(87,133,55);
     max-height: 100%;
     
    
@@ -433,9 +432,21 @@ background: #669801;
 	margin-left:-100%;
 	transition:all .4s;
    background:#fff;
-  
-     
-	}
+}  
+    
+.menu-logo{
+     height: 35px;   
+}
+    
+.menu-logo img{
+    width: 180px;
+    margin-top: -80px;
+    margin-left: 10px;
+    position: absolute;
+    
+    
+}
+	
 label[for='bt_menudo']{
 	display:block;
     margin-left:290px;
@@ -507,6 +518,32 @@ label[for='bt_menudo']{
         
     }
     
+.transp-slide{
+    width: 100%;
+    height: 50px;
+    background: rgb(87,133,55);
+    opacity : 0.7 ;
+    position: absolute;
+    margin-top: -40px;    
+    
+    }
+.text-slide{
+    color:#fff; 
+    font-weight: bold;
+    font-size: 8px;
+    text-shadow: 2px 2px 1px #000;
+}
+
+.text-slide2{
+    color:#fff; 
+    font-weight: bold;
+    font-size: 8px;
+    padding-top: 5px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 1px #000;
+}
+
+    
     .superinfo  p{
         font-size: 0.8em;
     }
@@ -517,7 +554,7 @@ label[for='bt_menudo']{
     
     
     .conteiner-menu{
-        background: #669801;
+        background: rgb(87,133,55);
         height: 100px;
         z-index: 2 !important;
         margin-bottom: 0;
